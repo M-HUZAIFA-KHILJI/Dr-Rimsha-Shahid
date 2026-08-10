@@ -24,7 +24,7 @@ export const blogArticles: BlogArticle[] = [
     author: {
       name: "Dr. Rimsha Shahid, MBBS",
       title: "Registered Medical Practitioner & Medical Billing Specialist",
-      image: "/images/dr-rimsha.jpg",
+      image: "/images/dr-rimsha.png",
     },
     content: `
       <p>The American healthcare system is facing a crisis that extends far beyond patient care. US physicians are increasingly frustrated with medical billing companies and billers who lack a fundamental understanding of medicine. The result? Lost revenue, avoidable claim denials, and a growing administrative burden that is driving physician burnout to unprecedented levels.</p>
@@ -60,7 +60,7 @@ export const blogArticles: BlogArticle[] = [
     author: {
       name: "Dr. Rimsha Shahid, MBBS",
       title: "Registered Medical Practitioner & Medical Billing Specialist",
-      image: "/images/dr-rimsha.jpg",
+      image: "/images/dr-rimsha.png",
     },
     content: `
       <p>Medical billing is often treated as a purely administrative function — a back-office task that can be outsourced to the lowest bidder. But this perspective fundamentally misunderstands what medical billing truly requires. At its core, medical billing is the translation of clinical care into financial reimbursement. And that translation requires someone who understands both sides of the equation.</p>
@@ -103,7 +103,7 @@ export const blogArticles: BlogArticle[] = [
     author: {
       name: "Dr. Rimsha Shahid, MBBS",
       title: "Registered Medical Practitioner & Medical Billing Specialist",
-      image: "/images/dr-rimsha.jpg",
+      image: "/images/dr-rimsha.png",
     },
     content: `
       <p>The healthcare industry is undergoing a profound transformation, driven by technology, globalization, and the increasing demand for specialized services. For Asian medical professionals, this transformation presents unprecedented opportunities to collaborate with US healthcare organizations, contribute to the American healthcare system, and build meaningful careers that transcend geographical boundaries.</p>
@@ -147,7 +147,7 @@ export const blogArticles: BlogArticle[] = [
     author: {
       name: "Dr. Rimsha Shahid, MBBS",
       title: "Registered Medical Practitioner & Medical Billing Specialist",
-      image: "/images/dr-rimsha.jpg",
+      image: "/images/dr-rimsha.png",
     },
     content: `
       <p>Claim denials represent one of the most significant financial threats facing US medical practices today. What many physicians fail to realize is that the true cost of denials extends far beyond the unpaid claim itself. The administrative burden, lost revenue, and operational inefficiencies created by denials can cripple a practice's financial health and threaten its long-term viability.</p>
@@ -191,7 +191,7 @@ export const blogArticles: BlogArticle[] = [
     author: {
       name: "Dr. Rimsha Shahid, MBBS",
       title: "Registered Medical Practitioner & Medical Billing Specialist",
-      image: "/images/dr-rimsha.jpg",
+      image: "/images/dr-rimsha.png",
     },
     content: `
       <p>In the United States, anyone can call themselves a medical biller. There are no licensing requirements, no mandatory certifications, and no standardized training programs that must be completed before handling sensitive patient information and complex financial transactions. This regulatory gap creates significant risks for physicians, patients, and the entire healthcare system.</p>
@@ -235,7 +235,7 @@ export const blogArticles: BlogArticle[] = [
     author: {
       name: "Dr. Rimsha Shahid, MBBS",
       title: "Registered Medical Practitioner & Medical Billing Specialist",
-      image: "/images/dr-rimsha.jpg",
+      image: "/images/dr-rimsha.png",
     },
     content: `
       <p>Revenue cycle management (RCM) is the financial lifeblood of every medical practice. Yet many physicians view it as a purely administrative function — something that happens in the background while they focus on patient care. This perspective is not only misguided, it is dangerous. Understanding RCM is essential for every physician who wants to maintain a financially healthy practice and continue providing quality care to their patients.</p>
@@ -294,7 +294,7 @@ export const blogArticles: BlogArticle[] = [
     author: {
       name: "Dr. Rimsha Shahid, MBBS",
       title: "Registered Medical Practitioner & Medical Billing Specialist",
-      image: "/images/dr-rimsha.jpg",
+      image: "/images/dr-rimsha.png",
     },
     content: `
       <p>Artificial intelligence is no longer a futuristic concept in healthcare — it is a present-day reality that is transforming medical billing and revenue cycle management. From automated coding review to predictive denial analytics, AI technologies are helping US medical practices reduce costs, improve accuracy, and optimize their financial performance in ways that were unimaginable just a few years ago.</p>
@@ -340,7 +340,7 @@ export const blogArticles: BlogArticle[] = [
     author: {
       name: "Dr. Rimsha Shahid, MBBS",
       title: "Registered Medical Practitioner & Medical Billing Specialist",
-      image: "/images/dr-rimsha.jpg",
+      image: "/images/dr-rimsha.png",
     },
     content: `
       <p>The healthcare industry is undergoing a digital transformation that is reshaping how medical billing and revenue cycle management are performed. Global healthcare IT firms are playing a central role in this transformation, providing US healthcare organizations with advanced technology, specialized expertise, and cost-effective solutions that improve financial performance and operational efficiency.</p>
@@ -389,7 +389,7 @@ export const blogArticles: BlogArticle[] = [
     author: {
       name: "Dr. Rimsha Shahid, MBBS",
       title: "Registered Medical Practitioner & Medical Billing Specialist",
-      image: "/images/dr-rimsha.jpg",
+      image: "/images/dr-rimsha.png",
     },
     content: `
       <p>Prior authorization has become the single largest administrative burden facing US physicians today. What was originally designed as a cost-control mechanism for insurance companies has evolved into a labyrinthine process that consumes enormous amounts of physician and staff time, contributes significantly to burnout, and in some cases, delays patient care to the point of causing serious harm.</p>
@@ -436,7 +436,7 @@ export const blogArticles: BlogArticle[] = [
     author: {
       name: "Dr. Rimsha Shahid, MBBS",
       title: "Registered Medical Practitioner & Medical Billing Specialist",
-      image: "/images/dr-rimsha.jpg",
+      image: "/images/dr-rimsha.png",
     },
     content: `
       <p>The future of medical billing belongs to physicians. Not because physicians should spend their time on administrative tasks, but because the billing process requires the clinical understanding, medical knowledge, and professional accountability that only a physician can provide. When physicians lead the billing operation — whether directly or through physician-led teams — practices consistently achieve better financial outcomes, fewer denials, and stronger revenue cycles.</p>

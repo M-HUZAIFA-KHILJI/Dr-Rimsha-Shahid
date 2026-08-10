@@ -313,7 +313,7 @@ export default function HomePage() {
               <div className="relative">
                 <div className="relative overflow-hidden rounded-2xl border border-border/60 bg-gradient-to-br from-surface via-white to-surface shadow-sm">
                   <Image
-                    src="/images/dr-rimsha.jpg"
+                    src="/images/dr-rimsha.png"
                     alt="Dr. Rimsha Shahid - MBBS Physician & Medical Billing Specialist"
                     width={480}
                     height={640}
@@ -599,3 +599,4 @@ export default function HomePage() {
     </main>
   );
 }
+

@@ -67,7 +67,7 @@ export default function AboutPage() {
 
             <div className="rounded-2xl border border-border bg-surface/50 overflow-hidden">
               <Image
-                src="/images/dr-rimsha.jpg"
+                src="/images/dr-rimsha.png"
                 alt="Dr. Rimsha Shahid - MBBS Physician & Medical Billing Specialist"
                 width={600}
                 height={800}
@@ -293,3 +293,4 @@ export default function AboutPage() {
     </main>
   );
 }
+
