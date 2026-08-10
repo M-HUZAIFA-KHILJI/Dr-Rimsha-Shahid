@@ -4,8 +4,8 @@ import { useState } from "react";
 
 const certifications = [
   {
-    name: "HIPAA Compliance Certification",
-    issuer: "Health Insurance Portability and Accountability Act",
+    name: "HealthCare Hustler Training Certificate",
+    issuer: "Healthcare Business & Operations Training",
     file: "/docs/cert-hipaa-1.pdf",
   },
   {
