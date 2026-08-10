@@ -1,28 +1,36 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useSyncExternalStore } from "react";
+
+function getConsentSnapshot() {
+  if (typeof window === "undefined") return "unknown";
+  return localStorage.getItem("cookie-consent") ?? "unknown";
+}
+
+function subscribeToConsent() {
+  return () => {};
+}
 
 export function CookieConsent() {
-  const [show, setShow] = useState(false);
+  const consent = useSyncExternalStore(
+    subscribeToConsent,
+    getConsentSnapshot,
+    () => "unknown",
+  );
 
-  useEffect(() => {
-    const consent = localStorage.getItem("cookie-consent");
-    if (!consent) {
-      setShow(true);
-    }
-  }, []);
+  const [dismissed, setDismissed] = useState(false);
+
+  if (dismissed || consent !== "unknown") return null;
 
   const accept = () => {
     localStorage.setItem("cookie-consent", "accepted");
-    setShow(false);
+    setDismissed(true);
   };
 
   const decline = () => {
     localStorage.setItem("cookie-consent", "declined");
-    setShow(false);
+    setDismissed(true);
   };
-
-  if (!show) return null;
 
   return (
     <div className="fixed bottom-0 left-0 right-0 z-50 border-t border-border bg-white p-4 shadow-lg sm:p-6">

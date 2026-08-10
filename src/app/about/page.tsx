@@ -5,13 +5,7 @@ export const metadata = {
 };
 
 import Image from "next/image";
-
-const certifications = [
-  { name: "[INSERT VERIFIED CERTIFICATION HERE]" },
-  { name: "[INSERT VERIFIED CERTIFICATION HERE]" },
-  { name: "[INSERT VERIFIED CERTIFICATION HERE]" },
-  { name: "[INSERT VERIFIED CERTIFICATION HERE]" },
-];
+import { CertificationsSection } from "@/components/CertificationsSection";
 
 export default function AboutPage() {
   return (
@@ -236,34 +230,7 @@ export default function AboutPage() {
       </section>
 
       {/* ─── CERTIFICATIONS ─── */}
-      <section className="bg-surface/50 py-20 sm:py-24">
-        <div className="mx-auto max-w-7xl px-5 sm:px-6 lg:px-8">
-          <div className="max-w-3xl">
-            <h2 className="text-3xl font-bold tracking-tight text-text sm:text-4xl">
-              Certifications
-            </h2>
-            <div className="mt-2 h-[3px] w-12 rounded-full bg-primary" />
-            <p className="mt-4 text-base text-text-light">
-              Verified professional certifications and credentials.
-            </p>
-          </div>
-          <div className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-            {certifications.map((cert) => (
-              <div
-                key={cert.name}
-                className="flex flex-col items-center justify-center rounded-2xl border border-dashed border-border bg-white p-6 text-center"
-              >
-                <div className="flex h-14 w-14 items-center justify-center rounded-full bg-primary/8 text-primary">
-                  <svg className="h-7 w-7" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M4.26 10.147a60.438 60.438 0 0 0-.491 6.347A48.62 48.62 0 0 1 12 20.904a48.62 48.62 0 0 1 8.232-4.41 60.46 60.46 0 0 0-.491-6.347m-15.482 0a50.636 50.636 0 0 0-2.658-.813A59.906 59.906 0 0 1 12 3.493a59.903 59.903 0 0 1 10.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.717 50.717 0 0 1 12 13.489a50.702 50.702 0 0 1 7.74-3.342M6.75 15a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Zm0 0v-3.675A55.378 55.378 0 0 1 12 8.443m-7.007 11.55A5.981 5.981 0 0 0 6.75 15.75v-1.5" />
-                  </svg>
-                </div>
-                <p className="mt-4 text-sm font-medium text-text-light">{cert.name}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
+      <CertificationsSection />
 
       {/* ─── LINKEDIN CTA ─── */}
       <section className="bg-primary py-20 sm:py-24">
