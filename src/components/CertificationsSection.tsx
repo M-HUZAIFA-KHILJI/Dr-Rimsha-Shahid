@@ -4,8 +4,8 @@ import { useState } from "react";
 
 const certifications = [
   {
-    name: "HealthCare Hustler Training Certificate",
-    issuer: "Healthcare Business & Operations Training",
+    name: "HIPAA & Privacy Law",
+    issuer: "HIPAA Privacy & Security Training",
     file: "/docs/cert-hipaa-1.pdf",
   },
   {
@@ -19,8 +19,8 @@ const certifications = [
     file: "/docs/cert-hipaa-2.pdf",
   },
   {
-    name: "Healthcare Hustlers Certificate",
-    issuer: "Healthcare Hustlers Community",
+    name: "Medical Billing Training",
+    issuer: "Medical Billing Training Program",
     file: "/docs/cert-healthcare-hustlers.png",
   },
 ];
@@ -133,7 +133,7 @@ export function CertificationsSection() {
               <img
                 src={openCert.file}
                 alt={openCert.name}
-                className="flex-1 w-full object-contain bg-surface"
+                className="h-full w-full object-contain bg-surface"
               />
             )}
           </div>
