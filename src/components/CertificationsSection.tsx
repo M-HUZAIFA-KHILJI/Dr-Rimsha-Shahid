@@ -14,7 +14,7 @@ const certifications = [
     file: "/docs/cert-emergency-medicine.pdf",
   },
   {
-    name: "HIPAA Training Certification",
+    name: "HIPAA Compliance Training Program",
     issuer: "HIPAA Privacy & Security Training",
     file: "/docs/cert-hipaa-2.pdf",
   },
