@@ -18,10 +18,17 @@ const certifications = [
     issuer: "HIPAA Privacy & Security Training",
     file: "/docs/cert-hipaa-2.pdf",
   },
+  {
+    name: "Healthcare Hustlers Certificate",
+    issuer: "Healthcare Hustlers Community",
+    file: "/docs/cert-healthcare-hustlers.png",
+  },
 ];
 
 export function CertificationsSection() {
-  const [openCert, setOpenCert] = useState<string | null>(null);
+  const [openCert, setOpenCert] = useState<
+    (typeof certifications)[number] | null
+  >(null);
 
   return (
     <>
@@ -40,7 +47,7 @@ export function CertificationsSection() {
             {certifications.map((cert) => (
               <button
                 key={cert.name}
-                onClick={() => setOpenCert(cert.file)}
+                onClick={() => setOpenCert(cert)}
                 className="group flex flex-col items-center justify-center rounded-2xl border border-border bg-white p-8 text-center transition hover:border-primary/30 hover:shadow-md cursor-pointer"
               >
                 <div className="flex h-16 w-16 items-center justify-center rounded-full bg-primary/10 text-primary transition group-hover:bg-primary group-hover:text-white">
@@ -115,11 +122,20 @@ export function CertificationsSection() {
                 </svg>
               </button>
             </div>
-            <iframe
-              src={openCert}
-              className="flex-1 w-full"
-              title="Certificate"
-            />
+            {openCert.file.endsWith(".pdf") ? (
+              <iframe
+                src={openCert.file}
+                className="flex-1 w-full"
+                title="Certificate"
+              />
+            ) : (
+              // eslint-disable-next-line @next/next/no-img-element
+              <img
+                src={openCert.file}
+                alt={openCert.name}
+                className="flex-1 w-full object-contain bg-surface"
+              />
+            )}
           </div>
         </div>
       )}
