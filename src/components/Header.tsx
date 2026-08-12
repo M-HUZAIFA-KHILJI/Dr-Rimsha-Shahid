@@ -16,6 +16,7 @@ const navLinks = [
   { href: "/services", label: "Services" },
   { href: "/rcm", label: "RCM" },
   { href: "/how-it-works", label: "How It Works" },
+  { href: "/contact", label: "Contact" },
   { href: "/faq", label: "FAQ" },
   { href: "/blog", label: "Blog" },
 ];

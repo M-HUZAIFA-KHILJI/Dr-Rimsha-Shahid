@@ -7,6 +7,7 @@ const LINKEDIN_URL =
 const quickLinks = [
   { href: "/", label: "Home" },
   { href: "/about", label: "About" },
+  { href: "/contact", label: "Contact" },
   { href: "/how-it-works", label: "How It Works" },
   { href: "/blog", label: "Blog" },
   { href: "/faq", label: "FAQ" },
